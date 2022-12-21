@@ -13,13 +13,6 @@ while True:
     time.sleep(0.2)
     file = open('output_log.txt')
     gg = file.readlines()
-    # matches = [match for match in gg if "laptoploop" in match]
-    # if len(matches) > 1 and int(match.strip(string.ascii_letters)) > 1:
-    #     print(matches[-1])
-
-    # match = [match for match in gg if "helicopter" in match]
-    # if len(match) > 1 and int(match.strip(string.ascii_letters)) > 1:
-    #     print(match[-1])
 
     if x == "1":
         match = [match for match in gg if "laptoploop" in match]
